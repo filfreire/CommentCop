@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/filfreire/CommentCop.svg?branch=master)](https://travis-ci.org/filfreire/CommentCop)
+
 # CommentCop
 CommentCop is a console app created to do simple operations on Github Issues's comments.
 
