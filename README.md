@@ -11,6 +11,8 @@
 </a>
 
 # CommentCop
+
+[![Join the chat at https://gitter.im/CommentCop/Lobby](https://badges.gitter.im/CommentCop/Lobby.svg)](https://gitter.im/CommentCop/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 CommentCop is a console app created to do simple operations on Github Issues's comments.
 
 ## What the project solves
