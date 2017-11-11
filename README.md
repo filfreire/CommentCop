@@ -1,6 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/filfreire/CommentCop.svg?branch=master)](https://travis-ci.org/filfreire/CommentCop)
 [![CircleCI](https://circleci.com/gh/filfreire/CommentCop/tree/master.svg?style=svg)](https://circleci.com/gh/filfreire/CommentCop/tree/master)
+[![codecov](https://codecov.io/gh/filfreire/CommentCop/branch/master/graph/badge.svg)](https://codecov.io/gh/filfreire/CommentCop)
 
 # CommentCop
 CommentCop is a console app created to do simple operations on Github Issues's comments.
