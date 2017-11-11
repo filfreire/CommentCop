@@ -1,11 +1,18 @@
 language: java
 
+addons:
+  sonarcloud:
+    organization: "filfreire-github"
+    token:
+      secure: "b3bffaf668e7e2da0012fca38cd0e9d79e0702a3"
+
 jdk:
  - oraclejdk8
 
 script:
 - mvn clean install
 - mvn cobertura:cobertura
+- mvn sonar:sonar
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
