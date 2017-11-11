@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/filfreire/CommentCop/branch/master/graph/badge.svg)](https://codecov.io/gh/filfreire/CommentCop)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/415672c1e182428586537254d4283702)](https://www.codacy.com/app/filfreire/CommentCop?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=filfreire/CommentCop&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/e3df0ebc-31b8-41e8-a68a-1874f07c2630)](https://codebeat.co/projects/github-com-filfreire-commentcop-master)
-
+[![Coveralls Coverage Status](https://coveralls.io/repos/github/filfreire/CommentCop/badge.svg?branch=master)](https://coveralls.io/github/filfreire/CommentCop?branch=master)
 
 # CommentCop
 CommentCop is a console app created to do simple operations on Github Issues's comments.
