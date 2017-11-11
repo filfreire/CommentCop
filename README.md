@@ -9,6 +9,7 @@
   <img alt="Coverity Scan Build Status"
        src="https://scan.coverity.com/projects/14315/badge.svg"/>
 </a>
+[![SonarQube](https://img.shields.io/badge/sonar-ok-green.svg)](https://sonarcloud.io/dashboard?id=com.commentcop%3Acommentcop)
 
 
 [![Join the chat at https://gitter.im/CommentCop/Lobby](https://badges.gitter.im/CommentCop/Lobby.svg)](https://gitter.im/CommentCop/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
