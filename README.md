@@ -10,6 +10,7 @@
        src="https://scan.coverity.com/projects/14315/badge.svg"/>
 </a>
 [![Maintainability](https://api.codeclimate.com/v1/badges/38497c64f017aeac7c20/maintainability)](https://codeclimate.com/github/filfreire/CommentCop/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/38497c64f017aeac7c20/test_coverage)](https://codeclimate.com/github/filfreire/CommentCop/test_coverage)
 [![SonarQube](https://img.shields.io/badge/sonar-ok-green.svg)](https://sonarcloud.io/dashboard?id=com.commentcop%3Acommentcop)
 [![qulice](https://img.shields.io/badge/qulice-good-green.svg)](http://www.qulice.com/)
 
