@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DevOps By Rultor.com](http://www.rultor.com/b/filfreire/CommentCop)](http://www.rultor.com/p/filfreire/CommentCop)
+[![We recommend IntelliJ](http://www.elegantobjects.org/intellij-idea.svg)](https://www.jetbrains.com/idea/)
 
 [![Build Status](https://travis-ci.org/filfreire/CommentCop.svg?branch=master)](https://travis-ci.org/filfreire/CommentCop)
 [![CircleCI](https://circleci.com/gh/filfreire/CommentCop/tree/master.svg?style=svg)](https://circleci.com/gh/filfreire/CommentCop/tree/master)
