@@ -27,6 +27,14 @@ CommentCop is a console app created to do simple operations on Github Issues's c
 
 MVP is to be able to point to a given issue list of a repository and delete all comments in those issues that obey a certain criteria.
 
+## How to build
+
+Run in terminal (includes unit tests and code quality checks):
+
+```
+mvn clean install
+```
+
 ## How to contribute
 
 Please refer to [CONTRIBUTING](CONTRIBUTING.md) file.
