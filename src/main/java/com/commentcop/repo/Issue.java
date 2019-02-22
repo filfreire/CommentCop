@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) 2017-2019 Filipe Freire
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -31,8 +31,6 @@ import org.cactoos.text.TextOf;
 /**
  * Issue.
  *
- * @author Filipe Freire (livrofubia@gmail.com)
- * @version $Id: ??? $
  * @since 1.0
  */
 public final class Issue {

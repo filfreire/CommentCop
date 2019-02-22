@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) 2017-2019 Filipe Freire
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,13 +21,12 @@
  */
 package com.commentcop;
 
-import org.junit.Assert;
+import org.assertj.core.api.Assertions;
+import org.junit.Test;
 
 /**
  * Unit tests for CommentCop App.
  *
- * @author Filipe Freire (livrofubia@gmail.com)
- * @version $Id: ??? $
  * @since 1.0
  */
 public class AppTest {
@@ -35,8 +34,9 @@ public class AppTest {
     /**
      * App test.
      */
+    @Test
     public final void testApp() {
-        Assert.assertTrue(true);
+        Assertions.assertThat(true).isTrue();
     }
 
 }
