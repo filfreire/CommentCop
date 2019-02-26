@@ -21,57 +21,54 @@
  */
 package com.commentcop.repo;
 
-import com.commentcop.api.User;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
 import org.cactoos.Text;
-import org.cactoos.text.TextOf;
+import org.cactoos.list.ListOf;
 
 /**
- * Comment.
+ * Comments.
  *
  * @since 1.0
  */
-public final class JsonComment {
+public final class JsonComments {
 
     /**
-     * Comment json body.
+     * Comments json array.
      */
     private final Text json;
 
     /**
      * Ctor.
      *
-     * @param json Comment json body
+     * @param json Comments json array
      */
-    public JsonComment(final Text json) {
+    public JsonComments(final Text json) {
         this.json = json;
     }
 
     /**
-     * Ctor.
+     * Return as a List of Comment objects.
      *
-     * @param node Comment json node body
-     */
-    public JsonComment(final JsonNode node) {
-        this(new TextOf(node.toString()));
-    }
-
-    /**
-     * Return as a Comment object.
-     *
-     * @return Comment
+     * @return List of Comment
      * @throws IOException On failure
      */
-    public Comment asComment() throws IOException {
+    public List<Comment> asComments() throws IOException {
         final ObjectMapper mapper = new ObjectMapper();
-        final JsonNode node = mapper.readTree(this.json.asString());
-        return new Comment(
-            node.get("id").asInt(),
-            node.get("body").asText(),
-            new User(node.get("user").get("login").asText())
+        final List<JsonNode> nodes =  new ListOf<>(
+            mapper.readValue(
+            this.json.asString(), JsonNode[].class
+            )
         );
+        final List<Comment> collect = new LinkedList<>();
+        for (final JsonNode node : nodes) {
+            final Comment comment = new JsonComment(node).asComment();
+            collect.add(comment);
+        }
+        return collect;
     }
 
 }
